@@ -29,7 +29,13 @@
 			</div>
 			<div class="col-md-7">
 				<h3><%="[" + rs.getString("b_category") + "] " + rs.getString("b_name")%></h3>
-				<p><%=rs.getString("b_description")%>
+				<%
+				String str = rs.getString("b_description");
+				if (str.length() > 100)
+					out.println(str.substring(0, 100) + "...");
+				else out.println(str);
+				%>
+				<%-- <p><%=rs.getString("b_description").substring(0, 100)%>... --%>
 				<p><%=rs.getString("b_author") + " | " + rs.getString("b_publisher") + " | " + rs.getString("b_unitPrice")%>원
 			</div>
 			<div class="col-md-3 align-self-center">
