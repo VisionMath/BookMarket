@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.baeumbig {
+	font-family: 'EliceDigitalBaeum_Bold';
+	font-size: 100px;
+	background-color: rgb(240, 255, 255);
+}
+
+.daum {
+	font-family: 'WooridaumB';
+}

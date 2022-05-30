@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<footer class="container">
+		<p>
+			<i class="fa fa-copyright"></i> 도서웹쇼핑몰
+		</p>
+	</footer>
+</body>
+</html>
